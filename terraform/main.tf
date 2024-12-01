@@ -4,7 +4,7 @@ resource "proxmox_virtual_environment_vm" "ubuntu_vm" {
   tags        = ["terraform", "ubuntu", "hello-world"]
 
   node_name = "server1"
-  vm_id     = 1
+  vm_id     = 4321
 
   agent {
     # read 'Qemu guest agent' section, change to true only when ready
